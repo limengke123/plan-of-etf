@@ -3,6 +3,7 @@ module.export.PlanList = [
     {
         time:"20171129",
         state:"normal",
+        count:4,
         info:{
             buy:{
                 "000478":{
@@ -24,6 +25,7 @@ module.export.PlanList = [
     {
         time:"20171214",
         state:"normal",
+        count:2,
         info:{
             buy:{
                 "100032":{
@@ -40,6 +42,7 @@ module.export.PlanList = [
     {
         time:"120171229",
         state:"normal",
+        count:2,
         info:{
             buy:{
                 "000478":{
@@ -54,4 +57,3 @@ module.export.PlanList = [
         }
     }
 ]
-    
