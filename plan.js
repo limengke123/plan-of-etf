@@ -1,7 +1,8 @@
 const Etf = require("./etf.js")
-module.export =  PlanList = [
+module.export.PlanList = [
     {
         time:"20171129",
+        state:"normal",
         info:{
             buy:{
                 "000478":{
@@ -19,8 +20,38 @@ module.export =  PlanList = [
             }
         }
         
+    },
+    {
+        time:"20171214",
+        state:"normal",
+        info:{
+            buy:{
+                "100032":{
+                    num:1,
+                    value:"1.3100"
+                },
+                "502010":{
+                    num:1,
+                    value:"1.0944"
+                }
+            }
+        }
+    },
+    {
+        time:"120171229",
+        state:"normal",
+        info:{
+            buy:{
+                "000478":{
+                    num:1,
+                    value:"2.3536"
+                },
+                "100032":{
+                    num:1,
+                    value:"1.3280"
+                }
+            }
+        }
     }
 ]
     
-
-console.log(Etf)
