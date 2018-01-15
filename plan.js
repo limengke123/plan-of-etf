@@ -1,7 +1,7 @@
 const Etf = require("./etf.js")
 module.export.PlanList = [
     {
-        time:"20171129",
+        time:"2017-11-29",
         state:"normal",
         count:4,
         info:{
@@ -23,7 +23,7 @@ module.export.PlanList = [
         
     },
     {
-        time:"20171214",
+        time:"2017-12-14",
         state:"normal",
         count:2,
         info:{
@@ -40,7 +40,7 @@ module.export.PlanList = [
         }
     },
     {
-        time:"120171229",
+        time:"2017-12-29",
         state:"normal",
         count:2,
         info:{
@@ -52,6 +52,19 @@ module.export.PlanList = [
                 "100032":{
                     num:1,
                     value:"1.3280"
+                }
+            }
+        }
+    },
+    {
+        time:"2018-1-15",
+        state:"self",
+        count:1,
+        info:{
+            buy:{
+                "001064":{
+                    num1:1,
+                    value:"unknown"
                 }
             }
         }
